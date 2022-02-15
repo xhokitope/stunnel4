@@ -102,6 +102,9 @@ netstat -tnlp
 * Compatible con Ubuntu 14, 16, 18
 
 
+* Nunca Dejes de Aprender
+
+
 
 
 
