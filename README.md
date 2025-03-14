@@ -13,7 +13,7 @@ apt-get install stunnel4 -y && apt-get install stunnel -y
 
 # Descargar é Instalar El Certificado TLS:
 
-openssl genrsa 1024 > stunnel.key && openssl req -new -key stunnel.key -x509 -days 1000 -out stunnel.crt && cat stunnel.crt stunnel.key > stunnel.pem && mv stunnel.pem /etc/stunnel/
+openssl genrsa 2048 > stunnel.key && openssl req -new -key stunnel.key -x509 -days 1000 -out stunnel.crt && cat stunnel.crt stunnel.key > stunnel.pem && mv stunnel.pem /etc/stunnel/
 
 * Darle [ENTER] a todo
 
